@@ -1,5 +1,6 @@
 package TestingSystem_Assignment_2;
 
-public class TypeName {
-
+public enum TypeName {
+	ESSAY, MULTIPLECHOICE;
+	
 }

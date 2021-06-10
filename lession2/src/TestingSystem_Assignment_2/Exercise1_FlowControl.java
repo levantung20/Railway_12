@@ -1,65 +1,22 @@
 package TestingSystem_Assignment_2;
 
-//import java.util.Date;
 
-//
-//public class Exercise1_FlowControl<Department> {
-//	public static void main(String[] args) {
-//		
-//	//	create Department
-//		department department1 = new department();
-//		department1.id = 1;
-//		department1.name = "sale";
-//		department department2 = new department();
-//		department2.id = 2;
-//		department2.name = "Marketting";
-//		
-//		// create group
-//		Group group1 = new Group();
-//		group1.id = 1;
-//		group1.name = "Java Fresher";
-//		
-//		Group group2 = new Group();
-//		group1.id = 2;
-//		group1.name = "C# Fresher";
-//		
-//		// create account
-//		account1 account1 =new account1();
-//		account1.id = 1;
-//		account1.eamil = "Nguyen van A@gmail.com";
-//		account1.department = department1;
-//		
-//		Group[] groupOfAccount1 = (group1, group2 );
-//		account1.groups = groupOfAccount1;
-//		
+	import java.util.Date;
 
-//		
-//		System.out.println("Thông tin phòng ban 1 ");
-//		System.out.println("name: " + department1.departmentName);
-//		System.out.println("id : + departmnet.id");
-//		System.out.println("\n");
-//		
-//		System.out.println("Thông tin phòng ban 2");
-//		System.out.println("name :"+ department2.departmentName);
-//		System.out.println("id: "+ department2.id);
-//		System.out.println("\n");
-//		
-//		System.out.println("Thông tin accoun 1:");
-//		System.out.println("id: "+ account1.id);
-//		System.out.println("Email:" + account1.eamil);
-//
-//		
+public class Exercise1_FlowControl<Department> {
 
-//		// EXERCISE 1 : FLOW CONTROL
-//		// Question 1:
-//		if (account2.department == null ) {
-//				System.out.println("Nhan vien nay chua co phong ban ");
-//			} else {
-//				System.out.println("Phong ban cua nhan vien nay la + account2.department.name");
-//				
-//		}
-//	}
-//
+public static void main(String[] args) {
+
+		// EXERCISE 1 : FLOW CONTROL
+		// Question 1:
+		if (account2.department == null ) {
+			System.out.println("Nhan vien nay chua co phong ban ");
+			} else {
+				System.out.println("Phong ban cua nhan vien nay la + account2.department.name");
+				
+		}
+	}
+
 //	// Question2 :
 //	if(account2.groups.length()==0)
 //
@@ -180,5 +137,14 @@ package TestingSystem_Assignment_2;
 //	}
 //	}
 //	} 
+// 		 bai tap in ra thong tin tat ca cac group tru group
+	for (int i = 0; i <listGroup.length; i++) {
+		if( i !=1) {
+			System.out.println(" thong tin account thu" + (i+1) + "La:");
+			System.out.println();
+		}
+			
+		}
+	}
 
  	

@@ -1,8 +1,11 @@
 package TestingSystem_Assignment_2;
 
 public class department {
-int id ;
-String departmentName;
-public String name;
+byte id ;
+String name;
 
+@Override
+public String toString() {
+	return name;
+}
 }

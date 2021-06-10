@@ -1,5 +1,5 @@
 package TestingSystem_Assignment_2;
 
-public class PositionName {
-
+public enum PositionName {
+DEV, TEST, SCRUMMASTER, PM
 }

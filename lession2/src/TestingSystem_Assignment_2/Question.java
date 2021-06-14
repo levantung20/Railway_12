@@ -1,5 +1,7 @@
 package TestingSystem_Assignment_2;
 
+import java.time.LocalDateTime;
+
 public class Question {
 	byte id;
 	String content;
@@ -8,6 +10,7 @@ public class Question {
 	Account creator;
 	Date creatDate;
 	Answer[] answers;
+	public LocalDateTime createDate;
 	
 	@Override
 	public String toString() {
